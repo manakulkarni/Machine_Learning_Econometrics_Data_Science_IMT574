@@ -1,0 +1,94 @@
+
+body {
+  margin-left: 45px;
+  background-color: azure
+}
+
+#info {
+  margin-top: 20px;
+}
+
+#viz {
+  margin-top: 0px;
+}
+
+#topbar {
+  display: flex;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
+.legend {
+  display: block;
+  padding-left: 20%;
+}
+
+.legend path {
+  display: none;
+}
+
+
+#control-panel {
+  margin-left: 12%;
+  margin-top: 28px;
+  padding-top: 0px;
+  display: flex;
+  position: relative;
+}
+.buttons{
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  color: #fffefe;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 4px;
+  text-decoration: none;
+}
+.button-default {
+  background: #e6e4dd;
+  background-image: -webkit-linear-gradient(top, #e6e4dd, #ababab);
+  background-image: -moz-linear-gradient(top, #e6e4dd, #ababab);
+  background-image: -ms-linear-gradient(top, #e6e4dd, #ababab);
+  background-image: -o-linear-gradient(top, #e6e4dd, #ababab);
+  background-image: linear-gradient(to bottom, #e6e4dd, #ababab);
+}
+.button-select {
+  background: #0e1131
+}
+#unitTitle {
+  margin: 5px 0px 5px 0px;
+  padding: 8px 0px 0px 0px;
+}
+#comparisonTitle {
+  margin: 5px 0px 5px 30px;
+  padding: 8px 0px 0px 0px;
+}
+.unitButtons, .comparisonButtons {
+  margin: 5px;
+  padding: 0px 0px 0px 0px;
+}
+
+
+.svg-map {
+  margin-top: 10px;
+}
+
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 12px;
+  background: rgba(116, 37, 80, 0.5);
+  color: #fff;
+  border-radius: 8px;
+}
+
+
+#links {
+  position: fixed;
+  bottom: 0;
+  font-size: 10px;
+}
